@@ -1,8 +1,10 @@
 name: zhongxiaoyan3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
+    - cron: '33 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongxiaoyan3456
         env:
-          sfra576: ${{ secrets.sfra576 }}
+          cmq396: ${{ secrets.cmq396 }}
         run: |
-          echo $sfra576 | jq -r .wj6 | /bin/bash
-          echo $qnwz64493 | jq -r .xfpgf512 | /bin/bash
-          echo $juzd09 | jq -r .ltg6 | /bin/bash
-          echo $j841 | jq -r .pcum694 | /bin/bash
-          echo $bdi42046 | jq -r .clbf551 | /bin/bash
-          echo $fhon05923 | jq -r .tmn2306 | /bin/bash
-          echo $tvvte6 | jq -r .kmrf5711 | /bin/bash
-          echo $a404 | jq -r .caxpq643 | /bin/bash
-          echo $ucdtf32182 | jq -r .btyjj536 | /bin/bash
-          echo $thas8 | jq -r .rk9198 | /bin/bash
-          echo $f15 | jq -r .nr8808 | /bin/bash
-          echo $d28848 | jq -r .ru884 | /bin/bash
-          echo $rlru631 | jq -r .e2 | /bin/bash
+          echo $cmq396 | jq -r .a417 | /bin/bash
+          echo $bmqy11 | jq -r .bzgbj86495 | /bin/bash
+          echo $pc19263 | jq -r .tuxor3 | /bin/bash
+          echo $hb2033 | jq -r .et409 | /bin/bash
+          echo $csbh30033 | jq -r .cmqko6 | /bin/bash
+          echo $s8574 | jq -r .ohabe1 | /bin/bash
+          echo $bdel481 | jq -r .ob8142 | /bin/bash
 
